@@ -4,8 +4,7 @@
 /* ============ css variables ============= */
 :root {
   /* === font family === */
-  --oswald-font: "Oswald", sans-serif;
-  --barlow-font: "Barlow Condensed", sans-serif;
+  --commissioner-font: "Commissioner", serif;
   /* === font family === */
   /* === font weight === */
   --light-weight: 300;
@@ -18,10 +17,9 @@
   /* === colors === */
   --white-clr: #fff;
   --black-clr: #000;
-  --primary-clr: #ff4655;
-  --primary-bg-clr: #121212;
-  --secondary-bg-clr: #191919;
-  --secondary-text-clr: #dddddd;
+  --primary-btn-clr: #7678ed;
+  --primary-text-clr: #13132C;
+  --secondary-text-clr: #62636c;
   --transparent-clr: transparent;
   /* === colors === */
   /* === method === */
@@ -65,7 +63,83 @@ img {
   vertical-align: middle;
 }
 .container {
-  max-width: 1320px;
+  max-width: 1200px;
   margin: 0 auto;
 }
+.common_btn {
+  padding: 14px 30px;
+  background-color: var(--primary-btn-clr);
+  color: var(--white-clr);
+  font-family: var(--commissioner-font);
+  font-size: 14px;
+  font-weight: var(--medium-weight);
+  line-height: 16px;
+  border: 2px solid var(--primary-btn-clr);
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.common_btn:hover {
+  color: var(--primary-btn-clr);
+  background-color: var(--white-clr);
+  border: 2px solid var(--primary-btn-clr);
+}
 /* ============= common css end here ================ */
+
+/* =================== navbar css start here ======================== */
+nav {
+  padding: 36px 0 !important;
+}
+.navbar {
+  padding: 0;
+}
+.navbar-nav {
+  column-gap: 49px;
+}
+.nav-link {
+  color: var(--secondary-text-clr);
+  font-family: var(--commissioner-font);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.nav-link:hover{
+  color: var(--primary-btn-clr);
+}
+
+/* =================== navbar css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
+
+/* =================== section css start here ======================== */
+/* =================== section css end here ======================== */
