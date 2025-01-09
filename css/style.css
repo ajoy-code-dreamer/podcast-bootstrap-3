@@ -86,6 +86,17 @@ img {
   background-color: var(--white-clr);
   border: 2px solid var(--primary-btn-clr);
 }
+.section_heading h2 {
+  font-size: 48px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 70px;
+  color: var(--primary-text-clr);
+}
+.section_heading p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #898998;
+}
 /* ============= common css end here ================ */
 
 /* =================== navbar css start here ======================== */
