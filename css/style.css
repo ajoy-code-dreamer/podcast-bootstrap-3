@@ -169,10 +169,10 @@ nav {
 }
 
 .banner_big_image{
-  width: 100%;
+  max-width: 560px;
   height: 520px;
-  width: 100%;
   background-color: #C4C4C4;
+  margin-left: auto;
 }
 .banner_big_image img{
   width: 100%;
@@ -180,6 +180,8 @@ nav {
 
 }
 .banner_feature_image{
+  max-width:  220px;
+  max-height: 240px;
   bottom: 48px;
   left: -104px;
 }
