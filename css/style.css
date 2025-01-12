@@ -168,19 +168,18 @@ nav {
   padding-right: 8px;
 }
 
-.banner_big_image{
+.banner_big_image {
   max-width: 560px;
   height: 520px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   margin-left: auto;
 }
-.banner_big_image img{
+.banner_big_image img {
   width: 100%;
   height: 100%;
-
 }
-.banner_feature_image{
-  max-width:  220px;
+.banner_feature_image {
+  max-width: 220px;
   max-height: 240px;
   bottom: 48px;
   left: -104px;
@@ -188,7 +187,57 @@ nav {
 /* =================== banner section css end here ======================== */
 
 /* =================== record section css start here ======================== */
-
+#record {
+  padding: 64px 0;
+}
+#record .section_heading h2 {
+  max-width: 643px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+}
+#record .section_heading p {
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.record_item {
+  padding: 24px 35px;
+  max-width: 282px;
+  text-align: center;
+  margin: 0 auto;
+}
+.record_item_icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fff7ec;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.record_item_icon i {
+  font-size: 40px;
+  line-height: 88px;
+  color: #f18701;
+}
+.record_item_heading {
+  color: var(--primary-text-clr);
+  font-size: 20px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.record_item_details {
+  color: var(--pera-text-clr);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 24px;
+}
 /* =================== record section css end here ======================== */
 
 /* =================== why_us section css start here ======================== */
