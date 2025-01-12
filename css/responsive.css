@@ -51,6 +51,25 @@
     line-height: 23px;
   }
   /* === banner === */
+  /* === record === */
+  #record{
+    padding: 40px 0;
+  }
+  .section_heading h2{
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  #record .section_heading h2{
+    margin-bottom: 16px;
+  }
+  #record .section_heading p{
+    margin-bottom: 32px;
+  }
+  #record .row:nth-child(2){
+    gap: 32px;
+  }
+  /* === record === */
 }
 /* ========================= device (xs 0 > 576) ========================= */
 
@@ -95,6 +114,18 @@
     justify-content: center;
   }
   /* === banner === */
+  /* === record === */
+  #record{
+    padding: 40px 0;
+  }
+  .section_heading h2{
+    font-size: 32px;
+    line-height: 48px;
+  }
+  #record .row:nth-child(2){
+    gap: 32px;
+  }
+  /* === record === */
 }
 /* ========================= device (sm 576 > 768) ========================= */
 
