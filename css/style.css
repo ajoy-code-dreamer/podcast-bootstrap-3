@@ -189,6 +189,7 @@ nav {
 /* =================== record section css start here ======================== */
 #record {
   padding: 64px 0;
+  background-color: #fafafa;
 }
 #record .section_heading h2 {
   max-width: 643px;
@@ -243,7 +244,52 @@ nav {
 /* =================== record section css end here ======================== */
 
 /* =================== why_us section css start here ======================== */
-
+#why_us {
+  padding: 48px 0;
+}
+#why_us .section_heading h2 {
+  max-width: 491px;
+  margin-bottom: 16px;
+}
+#why_us .section_heading p {
+  max-width: 386px;
+  margin-bottom: 32px;
+}
+.why_us_list_item {
+  padding-left: 36px;
+  position: relative;
+  color: var(--primary-text-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.why_us_list_item i{
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  color: #F18701;
+  font-size: 20px;
+}
+.why_us_btn .common_btn{
+  margin-top: 16px;
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+}
+.why_us_image{
+  max-width: 592px;
+  margin: 0 auto;
+}
+.why_us_image img{
+  width: 100%;
+}
 /* =================== why_us section css end here ======================== */
 
 /* =================== episode section css start here ======================== */
