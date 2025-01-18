@@ -264,7 +264,7 @@ nav {
   line-height: normal;
   margin-bottom: 24px;
 }
-.why_us_list_item i{
+.why_us_list_item i {
   position: absolute;
   left: 0;
   top: 50%;
@@ -273,27 +273,118 @@ nav {
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  color: #F18701;
+  color: #f18701;
   font-size: 20px;
 }
-.why_us_btn .common_btn{
+.why_us_btn .common_btn {
   margin-top: 16px;
   padding: 18px 40px;
   font-size: 16px;
   font-weight: var(--semi-bold-weight);
   line-height: normal;
 }
-.why_us_image{
+.why_us_image {
   max-width: 592px;
   margin: 0 auto;
 }
-.why_us_image img{
+.why_us_image img {
   width: 100%;
 }
 /* =================== why_us section css end here ======================== */
 
 /* =================== episode section css start here ======================== */
-
+#episode {
+  margin: 48px 0;
+  padding: 64px 0;
+  background-color: #fafafa;
+}
+#episode .section_heading h2 {
+  text-align: center;
+  max-width: 384px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+#episode .section_heading p {
+  text-align: center;
+  max-width: 386px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.episode_category {
+  padding: 16px 32px;
+  color: var(--pera-text-clr);
+  font-size: 14px;
+  font-weight: var(--medium-weight);
+  line-height: 16px;
+  border: 1px solid #ddd;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.episode_category:hover {
+  background-color: var(--primary-btn-clr);
+  color: var(--white-clr);
+  border-color: var(--primary-btn-clr);
+}
+.episode_item_wrapper {
+  max-width: 282px;
+}
+.episode_item_image {
+  height: 100%;
+  height: 234px;
+  background-color: #c4c4c4;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.episode_details h4 {
+  color: var(--primary-text-clr);
+  font-size: 18px;
+  font-weight: var(--medium-weight);
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.episode_details p {
+  color: var(--pera-text-clr);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 16px;
+}
+.episode_details p .minutes {
+  margin-left: 16px;
+}
+.episode_details p .file {
+  position: relative;
+}
+.episode_details p .file::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  bottom: 4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--primary-btn-clr);
+}
+.episode_btn .common_btn {
+  color: var(--primary-btn-clr);
+  font-size: 16px;
+  font-weight: var(--semi-bold-weight);
+  line-height: normal;
+  background-color: var(--transparent-clr);
+}
+.episode_btn .common_btn:hover {
+  color: var(--white-clr);
+  background-color: var(--primary-btn-clr);
+}
 /* =================== episode section css end here ======================== */
 
 /* =================== pricing section css start here ======================== */
