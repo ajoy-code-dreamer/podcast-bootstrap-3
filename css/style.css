@@ -253,7 +253,7 @@ nav {
 }
 #why_us .section_heading p {
   max-width: 386px;
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .why_us_list_item {
   padding-left: 36px;
@@ -266,7 +266,7 @@ nav {
 }
 .why_us_list_item i{
   position: absolute;
-  left: -36px;
+  left: 0;
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
