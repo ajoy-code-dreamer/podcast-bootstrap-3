@@ -298,19 +298,22 @@ nav {
   padding: 64px 0;
   background-color: #fafafa;
 }
-#episode .section_heading h2 {
+#episode .section_heading h2,
+#pricing .section_heading h2 {
   text-align: center;
   max-width: 384px;
   margin: 0 auto;
   margin-bottom: 24px;
 }
-#episode .section_heading p {
+#episode .section_heading p,
+#pricing .section_heading p {
   text-align: center;
   max-width: 386px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
-.episode_category {
+.episode_category_wrapper .category,
+.pricing_category_wrapper .category {
   padding: 16px 32px;
   color: var(--pera-text-clr);
   font-size: 14px;
@@ -324,7 +327,8 @@ nav {
   -o-transition: var(--transition);
   cursor: pointer;
 }
-.episode_category:hover {
+.episode_category_wrapper .category:hover,
+.pricing_category_wrapper .category:hover {
   background-color: var(--primary-btn-clr);
   color: var(--white-clr);
   border-color: var(--primary-btn-clr);
@@ -388,6 +392,108 @@ nav {
 /* =================== episode section css end here ======================== */
 
 /* =================== pricing section css start here ======================== */
+#pricing {
+  padding: 48px 0;
+}
+#pricing .section_heading h2 {
+  max-width: 593px;
+}
+#pricing .section_heading p {
+  max-width: 533px;
+  margin-bottom: 48px;
+}
+.pricing_item_wrapper {
+  max-width: 384px;
+  background-color: var(--white-clr);
+  box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.pricing_item_heading {
+  color: var(--primary-text-clr);
+  font-size: 32px;
+  font-weight: var(--medium-weight);
+  line-height: 38px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.pricing_item_details {
+  max-width: 240px;
+  color: var(--pera-text-clr);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 24px;
+  transition: var(--transition);
+}
+.pricing_item_price {
+  color: var(--primary-text-clr);
+  font-size: 40px;
+  font-weight: var(--medium-weight);
+  line-height: 48px;
+  transition: var(--transition);
+}
+.pricing_item_price span {
+  color: var(--pera-text-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+  transition: var(--transition);
+}
+.pricing_feature_list_wrapper {
+  margin: 32px 0;
+}
+.pricing_feature_list {
+  color: var(--primary-text-clr);
+  font-size: 16px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  padding-left: 36px;
+  position: relative;
+  transition: var(--transition);
+}
+.pricing_feature_list i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  font-size: 22px;
+  color: var(--primary-btn-clr);
+  transition: var(--transition);
+}
+.pricing_btn .common_btn {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding: 18px 0;
+  font-weight: var(--semi-bold-weight);
+  background-color: var(--white-clr);
+  color: var(--primary-btn-clr);
+}
+.pricing_item_wrapper:hover {
+  background-color: var(--primary-btn-clr);
+  box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+}
+.pricing_item_wrapper:hover .pricing_item_heading,
+.pricing_item_wrapper:hover .pricing_item_price,
+.pricing_item_wrapper:hover .pricing_feature_list,
+.pricing_item_wrapper:hover .pricing_feature_list i {
+  color: var(--white-clr);
+}
+.pricing_item_wrapper:hover .pricing_item_details,
+.pricing_item_wrapper:hover .pricing_item_price span {
+  color: rgba(255, 255, 255, 0.72);
+}
 
 /* =================== pricing section css end here ======================== */
 
