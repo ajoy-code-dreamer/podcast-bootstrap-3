@@ -379,7 +379,8 @@ nav {
   background-color: var(--primary-btn-clr);
 }
 .episode_btn .common_btn,
-.blog_btn_wrapper .common_btn {
+.blog_btn_wrapper .common_btn,
+.testimonials_btn .common_btn {
   padding: 18px 40px;
   color: var(--primary-btn-clr);
   font-size: 16px;
@@ -388,7 +389,8 @@ nav {
   background-color: var(--transparent-clr);
 }
 .episode_btn .common_btn:hover,
-.blog_btn_wrapper .common_btn:hover {
+.blog_btn_wrapper .common_btn:hover,
+.testimonials_btn .common_btn:hover {
   color: var(--white-clr);
   background-color: var(--primary-btn-clr);
 }
@@ -555,6 +557,150 @@ nav {
 /* =================== blog section css end here ======================== */
 
 /* =================== testimonials section css start here ======================== */
+#testimonials {
+  padding-top: 48px;
+  margin-bottom: -294px;
+}
+#testimonials .section_heading h2 {
+  max-width: 403px;
+}
+#testimonials .row:first-child {
+  margin-bottom: 56px;
+}
+.testimonials_item_wrapper {
+  border: 1px solid #ddd;
+  max-width: 384px;
+}
+.testimonials_item_wrapper i {
+  color: #ddd;
+  font-size: 48px;
+  font-weight: var(--semi-bold-weight);
+  line-height: 40px;
+  position: relative;
+  margin-bottom: 24px;
+  display: block;
+}
+.testimonials_item_wrapper i::after {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 2px;
+  background-color: #ddd;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.testimonials_item_wrapper p {
+  color: #62636c;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: var(--regular-weight);
+  line-height: 28px;
+  margin-bottom: 32px;
+}
+
+.testimonials_user_wrapper .user_image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #c4c4c4;
+  flex-shrink: 0;
+}
+.testimonials_user_wrapper .user_info h4 {
+  color: var(--primary-text-clr);
+  font-size: 18px;
+  font-weight: var(--medium-weight);
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.testimonials_user_wrapper .user_info h6 {
+  color: var(--pera-text-clr);
+  font-size: 16px;
+  font-weight: var(--regular-weight);
+  line-height: normal;
+}
+.testimonials_arrow_wrapper {
+  column-gap: 32px;
+  margin-bottom: 64px;
+}
+.testimonials_arrows {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  color: rgba(255, 255, 255, 0.48);
+  line-height: 56px;
+  cursor: pointer;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.testimonials_arrows:hover {
+  color: var(--primary-btn-clr);
+  background-color: var(--white-clr);
+  border-color: var(--white-clr);
+}
+.testimonials_slider_dots_wrapper {
+  column-gap: 8px;
+}
+.testimonials_slider_dots_wrapper span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+  cursor: pointer;
+}
+.testimonials_slider_dots_wrapper span::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.48);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.testimonials_slider_dots_wrapper span:hover {
+  border: 1px solid var(--white-clr);
+}
+.testimonials_slider_dots_wrapper span:hover::after{
+  background-color: var(--white-clr);
+}
 
 /* =================== testimonials section css end here ======================== */
 
