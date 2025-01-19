@@ -103,7 +103,7 @@ body {
 /* ============= common css end here ================ */
 
 /* =================== navbar css start here ======================== */
-nav {
+#nav {
   padding: 36px 0 !important;
 }
 .navbar {
@@ -698,7 +698,7 @@ nav {
 .testimonials_slider_dots_wrapper span:hover {
   border: 1px solid var(--white-clr);
 }
-.testimonials_slider_dots_wrapper span:hover::after{
+.testimonials_slider_dots_wrapper span:hover::after {
   background-color: var(--white-clr);
 }
 
@@ -707,26 +707,43 @@ nav {
 /* =================== footer section css start here ======================== */
 footer {
   background-color: var(--primary-text-clr);
-  padding: 280px 0 30px;
+  padding: 294px 0 32px;
 }
 footer .footer_left_content p {
+  max-width: 360px;
   color: rgba(255, 255, 255, 0.72);
   line-height: 28px;
+  font-size: 16px;
+  font-weight: var(--regular-weight);
 }
 .footer_links h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: var(--semi-bold-weight);
   color: var(--white-clr);
-}
-footer .footer_links nav {
-  padding: 25px 0 !important;
+  line-height: normal;
+  margin-bottom: 24px;
 }
 .footer_links.address ul li,
-.footer_links ul li a {
-  padding: 13px 0;
+.footer_links ul li a,
+.copyright_text h5 {
+  margin-bottom: 24px;
   color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+  font-weight: var(--regular-weight);
+  line-height: 16px;
+}
+.footer_links.address ul li {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
 }
 .footer_links.address ul li i {
-  padding-right: 5px;
+  font-size: 22px;
+}
+.copyright_text {
+  border-top: 1px solid rgba(255, 255, 255, 0.64);
+}
+.copyright_text h5 {
+  margin-bottom: 0;
 }
 /* =================== footer section css end here ======================== */
